@@ -10,6 +10,15 @@ body
     height: auto;
     margin: auto;
 }
+a
+{
+    color: #181818;
+   text-decoration: none;
+}
+a:hover
+{
+    color: #0000cc;
+}
 header
 {
     display: flex;
@@ -84,28 +93,56 @@ input
     border-radius: 50%;
     color: midnightblue;
 }
-section
+article
 {
     background-color: #F2F2F2;
     width: 680px;
     height: auto;
+    border-radius: 5%;
+
 }
-section h2
+article h2
 {
     padding-top: 30px;
+    padding-left: 20px;
 }
 #heberge
 {
     display: flex;
     flex-wrap: wrap;
+    padding-left: 20px;
 
 }
-section img
+#heberge div
 {
+    background-color:white;
     border: 3px solid white;
+    border-radius: 5%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+article img
+{
     border-radius: 10px;
     width: 200px;
     height: 100px;
-    margin-right: 20px;
+    padding: auto;
 }
+article i
+{
+    display: inline-block;
+    color: darkblue;
+}
+#titre_populaires
+{
+    display: flex;
+}
+aside
+{
+    background-color:#F2F2F2;
+    border: 3px solid white;
+    border-radius: 5%;
+}
+
+
 
