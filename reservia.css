@@ -10,4 +10,16 @@ body
     height: auto;
     margin: auto;
 }
-#
+header
+{
+    display: flex;
+}
+#logo img
+{
+    width: 160px;
+    height: 90px;
+}
+nav ul
+{
+    display: flex;
+}
