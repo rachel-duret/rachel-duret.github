@@ -44,6 +44,7 @@ nav
     position: relative;
     left: 400px;
 }
+/*Rechercher*/
 #rechercher
 {
     display: flex;
@@ -66,6 +67,7 @@ input
     background-color:midnightblue ;
     color: #DEEBFF;
 }
+/* Filtres*/
 #filtres
 {
     display: flex;
@@ -96,6 +98,7 @@ input
     border-radius: 50%;
     color: midnightblue;
 }
+/* Hébergements à Marseille*/
 article
 {
     background-color: #F2F2F2;
@@ -136,6 +139,7 @@ article i
     display: inline-block;
     color: darkblue;
 }
+/*Les plus populaires*/
 #titre_populaires
 {
     display: flex;
@@ -147,37 +151,43 @@ aside
     border: 3px solid white;
     border-radius: 5%;
     width: 200px;
-
-
-
-
 }
-#heberge,#populaires
-{
-
-
-}
-
-
-aside img
-{
+aside img {
     width: 100px;
-    height:100px;
+    height: 100px;
+    /*Activité à Marseille */
 }
+section
+{
+    width: 980px;
+    height: auto;
+background-color:
+}
+table
+{
+    width: 980px;
+    height: 300px;
+}
+table img
+{
+    border: 3px solid white;
+    border-radius: 20px 20px 0px 0px;
+}
+
 #vieux img,#calanques img
 {
    width: 200px;
-    height: 250px;
+    height: 270px;
 }
 #pomegues img,#longchamp img
 {
     width: 200px;
-    height: 120px;
+    height: 110px;
 }
 #frioul img
 {
     width: 200px;
-    height: 70px;
+    height: 90px;
 
 }
 #garde img
@@ -185,18 +195,8 @@ aside img
     width: 200px;
     height: 100px;
 }
-section
-{
-    width: 980px;
-    height: auto;
-    background-color: #706b64;
-}
-section div
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+
+
 
 
 
