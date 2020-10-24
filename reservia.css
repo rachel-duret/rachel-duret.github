@@ -6,7 +6,7 @@ body
 }
 #bloc_page
 {
-    width: 980px;
+    width: 1170px;
     height: auto;
     margin: auto;
 }
@@ -56,9 +56,20 @@ nav
     height: 30px;
     background-color: #DEEBFF;
 }
-#rechercher i form input
+#rechercher
 {
     margin-left: 30px;
+}
+#rechercher i
+{
+    color: midnightblue;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#rechercher select
+{
+    width: 120px;
+    height: 30px;
 }
 input
 {
@@ -66,6 +77,10 @@ input
     border-radius: 0 50px 50px 0;
     background-color:midnightblue ;
     color: #DEEBFF;
+    width: 100px;
+    height: 30px;
+
+
 }
 /* Filtres*/
 #filtres
@@ -75,6 +90,7 @@ input
     font-weight: bold;
     color: #181818;
     padding:20px;
+    vertical-align: bottom;
 }
 #filtres i
 {
@@ -82,8 +98,9 @@ input
     border: 1px solid  #DEEBFF;
     width: 30px;
     height: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
     border-radius: 50%;
-    text-align: center;
     color: midnightblue;
 }
 #filtres div
@@ -92,18 +109,17 @@ input
     border-radius: 50px;
     border: 1px solid #DEEBFF;
 }
-.fal fa-info-circle
-{
-    background-color: #DEEBFF;
-    border-radius: 50%;
-    color: midnightblue;
+#filtres a{
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-bottom: 0px;
 }
 /* Hébergements à Marseille*/
 article
 {
     background-color: #F2F2F2;
-    width: 680px;
-    height: auto;
     border-radius: 5%;
 
 }
@@ -111,6 +127,11 @@ article h2
 {
     padding-top: 30px;
     padding-left: 20px;
+}
+#hebergements
+{
+    width: 680px;
+    height: auto;
 }
 #heberge
 {
@@ -132,11 +153,13 @@ article img
     border-radius: 10px;
     width: 200px;
     height: 100px;
-    padding: auto;
 }
-article i
+.fas fa-euro-sign
 {
-    display: inline-block;
+    color: #181818;
+}
+.fas fa-star
+{
     color: darkblue;
 }
 /*Les plus populaires*/
@@ -144,7 +167,7 @@ article i
 {
     display: flex;
 }
-aside
+#titre_populaires
 {
     display: flex;
     background-color:#F2F2F2;
@@ -152,16 +175,22 @@ aside
     border-radius: 5%;
     width: 200px;
 }
-aside img {
+#populaires
+{
+    float: left;
+}
+#populaires img {
     width: 100px;
     height: 100px;
-    /*Activité à Marseille */
 }
+
+/*Activité à Marseille */
 section
 {
+    clear: left;
     width: 980px;
     height: auto;
-background-color:
+background-color:#F2F2F2;
 }
 table
 {
